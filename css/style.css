@@ -25,7 +25,7 @@
     gap: 10px;
 }
 .nav-right{
-    
+    display: flex;
 }
 .nav-btn{
   background-color: transparent;
@@ -47,12 +47,20 @@
 
 
 /* header starts  */
+.header-container{
+  background-image: url('../resources/Group 14.png');
+  background-repeat: no-repeat;
+}
 .header-main{
 border: 2px solid red;
 display: flex;
+max-width: 1000px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
 }
 .header-left{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 50%;
 
 }
@@ -63,6 +71,32 @@ display: flex;
 }
 .header-right img{
   width: 100%;
+}
+.goat{
+  font-size: 55px;
+  /* box-shadow:  2px 2px black; */
+
+  /* background-color: red; */
+  /* background-image: url('../resources/Rectangle 12.png'); */
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(#F948B2, #8758F1);
+
+}
+.header-common{
+padding: 15px 20px;
+border: none;
+border-radius: 25px;
+margin-top: 10px;
+color: rgb(247, 242, 242);
+font-weight: 500;
+}
+.header-btn1{
+background-color: #FF42A5;
+margin-right: 15px;
+}
+.header-btn2{
+background-color: #4EC5F7;
 }
 
 /* header ends  */
