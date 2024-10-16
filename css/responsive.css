@@ -14,4 +14,36 @@
     .header-left, .header-right{
         width: 85%;
     }
+    .online-main{
+        grid-template-areas: 
+        "a"
+         "b"
+          "c"
+           "d" 
+         ;
+         width: 85%;
+         margin: 50px auto;
+    }
+    .play-main{
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .play-left{
+        width: 100%;
+    }
+    .play-right{
+        width: 100%;
+    }
+    .play-right .cat{
+        width: 120px;
+        height: 120px;
+    }
+    .category-child{
+        min-width: 100px;
+        /* font-size: 10px; */
+    }
+    .category-child img{
+        width: 30px;
+    }
 }
